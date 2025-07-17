@@ -2,6 +2,15 @@
 
 Welcome! This repository contains a user-friendly **Sales Dashboard** for interactive analysis of business performance, built using Microsoft Power BI.
 
+The SALES REPORT Dashboard is an interactive analytics solution built using Microsoft Power BI. Its main goal is to give business leaders and analysts clear, actionable insights into sales performance. 
+
+The dashboard displays key metrics such as profit, sales, and quantity sold through visually engaging cards, maps, and charts.
+
+Users can interact with the dashboard through dynamic filters—exploring sales by time period, location (region, state, city), product category, and customer segment (Consumer, Corporate, Home Office). 
+
+It also includes detailed breakdowns for shipping modes and payment methods, helping users spot trends, peak sales periods, top-performing categories, and regional strengths at a glance.
+
+The project is ideal for anyone looking to monitor sales performance, understand customer preferences, and make informed decisions to improve business outcomes.
 ---
 
 ## 📝 Description
@@ -67,7 +76,7 @@ A dynamic dashboard delivering instant access to essential business metrics for 
     git clone https://github.com/yourusername/sales-dashboard-report.git
     ```
 2. **Open** the file:
-    - `Dashboards/sales_dashboard.pbix` in **Microsoft Power BI Desktop**
+    - `SALES REPORT POWER BI.pbix` in **Microsoft Power BI Desktop**
 3. **Interact:** Use slicers and charts for custom analysis.
 
 ---
@@ -83,9 +92,11 @@ A dynamic dashboard delivering instant access to essential business metrics for 
 ---
 
 ## 🖼️  Dashboard
+
+- 👤 **This image is a Power BI dashboard report titled "SALES REPORT," providing a comprehensive summary of business sales performance using various data visualizations and KPIs. 
+- 🚚 **The dashboard utilizes a dark-themed background with vivid charts and intuitive layouts.
+
 <img width="1266" height="716" alt="SCREENSHOT" src="https://github.com/user-attachments/assets/68ab31e4-36bb-45be-a68a-05ba36fbf8f2" />
-
-
 
 ---
 
@@ -102,3 +113,16 @@ For questions or feedback, open an issue or start a discussion.
 
 ---
 
+## 📬 Get in touch
+
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:singhalsahil22@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sahil-singhal-2b507823b/)
+
+---
+
+## 🏆 Credits
+
+- Dataset sourced from [Kaggle](https://www.kaggle.com/)
+
+---
+**Thank you for checking out this project! Contributions, suggestions, and feedback are always welcome. Happy analyzing! 🙌**
