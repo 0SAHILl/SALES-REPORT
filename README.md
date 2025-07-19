@@ -11,6 +11,7 @@ Users can interact with the dashboard through dynamic filters—exploring sales 
 It also includes detailed breakdowns for shipping modes and payment methods, helping users spot trends, peak sales periods, top-performing categories, and regional strengths at a glance.
 
 The project is ideal for anyone looking to monitor sales performance, understand customer preferences, and make informed decisions to improve business outcomes.
+
 ---
 
 ## 📝 Description
@@ -49,6 +50,23 @@ A dynamic dashboard delivering instant access to essential business metrics for 
 | 📦 Total Quantity       | 22,000   |
 | 💰 Total Sales          | 1.57M    |
 | 🚚 Avg. Delivery (Sum)  | 23,000   |
+
+---
+## 📊 DAX Measures
+
+This repository contains analytical insights and visualizations built on the SuperStore Sales dataset using Power BI. Below is an example DAX measure used in the report to calculate the average delivery time between order date and ship date.
+
+## DAX Measure: AvgDeliveryTime
+
+AvgDeliveryTime =
+DATEDIFF(
+'SuperStore_Sales_Dataset'[Order Date],
+'SuperStore_Sales_Dataset'[Ship Date],
+DAY
+)
+
+This measure calculates the delivery time in days for each order. You can use it to analyze shipping efficiency across regions, categories, or customer segments.
+
 
 ---
 
