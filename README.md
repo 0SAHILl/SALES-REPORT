@@ -52,20 +52,27 @@ A dynamic dashboard delivering instant access to essential business metrics for 
 | 🚚 Avg. Delivery (Sum)  | 23,000   |
 
 ---
-## 📊 DAX Measures
+## 🧮 DAX Measures
 
-This repository contains analytical insights and visualizations built on the SuperStore Sales dataset using Power BI. Below is an example DAX measure used in the report to calculate the average delivery time between order date and ship date.
+The dashboard uses DAX to create analytical measures for business KPIs.
 
-## DAX Measure: AvgDeliveryTime
+### Average Delivery Days
 
-AvgDeliveryTime =
-DATEDIFF(
-'SuperStore_Sales_Dataset'[Order Date],
-'SuperStore_Sales_Dataset'[Ship Date],
-DAY
+```DAX
+Avg Delivery Days =
+AVERAGEX(
+    'SuperStore_Sales_Dataset',
+    DATEDIFF(
+        'SuperStore_Sales_Dataset'[Order Date],
+        'SuperStore_Sales_Dataset'[Ship Date],
+        DAY
+    )
 )
+```
 
-This measure calculates the delivery time in days for each order. You can use it to analyze shipping efficiency across regions, categories, or customer segments.
+This measure calculates the **average number of days between the Order Date and Ship Date**, resulting in an average delivery time of **3.93 days** for the dataset.
+
+The measure can also be used with dashboard filters to analyze delivery performance across different **categories, regions, cities, customer segments, and shipping modes**.
 
 
 ---
@@ -114,7 +121,8 @@ This measure calculates the delivery time in days for each order. You can use it
 - 👤 **This image is a Power BI dashboard report titled "SALES REPORT," providing a comprehensive summary of business sales performance using various data visualizations and KPIs. 
 - 🚚 **The dashboard utilizes a dark-themed background with vivid charts and intuitive layouts.
 
-<img width="1266" height="716" alt="SCREENSHOT" src="https://github.com/user-attachments/assets/68ab31e4-36bb-45be-a68a-05ba36fbf8f2" />
+<img width="1290" height="752" alt="DASHBOARD" src="https://github.com/user-attachments/assets/cef546e7-cd11-4b1b-ac28-096ddf951d77" />
+
 
 ---
 
