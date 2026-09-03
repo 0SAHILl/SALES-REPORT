@@ -98,7 +98,7 @@ The measure can also be used with dashboard filters to analyze delivery performa
 
 1. **Clone the repository:**
     ```
-    git clone https://github.com/yourusername/sales-dashboard-report.git
+    git clone https://github.com/0SAHILl/SALES-REPORT.git
     ```
 2. **Open** the file:
     - `SALES REPORT POWER BI.pbix` in **Microsoft Power BI Desktop**
@@ -118,8 +118,8 @@ The measure can also be used with dashboard filters to analyze delivery performa
 
 ## 🖼️  Dashboard
 
-- 👤 **This image is a Power BI dashboard report titled "SALES REPORT," providing a comprehensive summary of business sales performance using various data visualizations and KPIs. 
-- 🚚 **The dashboard utilizes a dark-themed background with vivid charts and intuitive layouts.
+- 👤 This image is a Power BI dashboard report titled "SALES REPORT," providing a comprehensive summary of business sales performance using various data visualizations and KPIs. 
+- 🚚 The dashboard utilizes a dark-themed background with vivid charts and intuitive layouts.
 
 <img width="1290" height="752" alt="DASHBOARD" src="https://github.com/user-attachments/assets/cef546e7-cd11-4b1b-ac28-096ddf951d77" />
 
